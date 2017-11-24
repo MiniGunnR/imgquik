@@ -25,7 +25,7 @@ SECRET_KEY = 'f_2*c#v-buh4_eeq%#em7bv%auode*%sb5)20*n_fs4ghr%k3+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['imgquik.heroku.com']
 
 
 # Application definition
