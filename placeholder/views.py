@@ -25,7 +25,7 @@ def placeholder(request, width, height, bg='FFFFFF', fg='000000'):
 
 
 def index(request):
-    example = reverse('placeholder:placeholder', kwargs={'width': 50, 'height': 50})
+    example = reverse('placeholder:placeholder', kwargs={'width': 100, 'height': 50})
     context = {
         'example': request.build_absolute_uri(example)
     }
